@@ -1,5 +1,3 @@
-console.log('Client side Javascript is loaded')
-
 //Fetch API can only run on client side scripts cuz it uses browser API
 // fetch('http://puzzle.mead.io/puzzle').then((response) => {
 //   response.json().then((data)=> {
