@@ -21,8 +21,8 @@ app.use(express.static(publicDirectoryPath))
 
 app.get('/', (req, res) => {
   res.render('index.hbs', {
-    title: 'YES IM BECOMING AWESOME',
-    body: 'Fuck yeahhhhh!!!!!!!!!!!!!!!!!!!!!!!!!',
+    title: 'YES IM BECOMING ALIVE',
+    body: 'Time to get some weather!',
     name: 'Mike'
   })
 })
