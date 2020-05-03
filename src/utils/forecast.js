@@ -11,7 +11,8 @@ const wxGet = (latitude, longitude, callback) => {
       callback(error, {
         temperature: body.current.temperature,
         feelsLike: body.current.feelslike,
-        weatherType: body.current.weather_descriptions[0]
+        weatherType: body.current.weather_descriptions[0],
+        pressure: body.current.pressure
       })
     }
   })

@@ -24,7 +24,7 @@ weatherForm.addEventListener('submit', (e) => {
       if (data.error) {
         messageP.textContent = data.error
       } else {
-        messageP.innerHTML = data.weather + '<br>Current Temperature: ' + data.temperature + '<br>Feels Like: ' + data.feelsLike + '<br>Location: ' + data.location
+        messageP.innerHTML = data.weather + '<br>Current Temperature: ' + data.temperature + '<br>Feels Like: ' + data.feelsLike + '<br>Pressure  ' + data.pressure +'mB' + '<br>Location: ' + data.location
       }
     })
   })
